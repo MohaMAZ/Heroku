@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello heroku'
+    return 'Hello this is Heroku!'
 
 if __name__ == '__main__':
     app.run()
